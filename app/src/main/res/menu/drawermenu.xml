@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<group android:checkableBehavior="single">
+    <item android:title="My Songs"
+          android:id="@+id/nav_mysongs"
+          android:icon="@drawable/mysongs_icon"/>
+
+    <item android:title="Youtube"
+          android:id="@+id/nav_youtube"
+          android:icon="@drawable/youtube_icon"
+          />
+    </group>
+<item android:title="Communicate">
+    <menu>
+        <item android:title="Contact Us"
+             android:id="@+id/contact_us"
+            android:icon="@drawable/settings"/>
+        <item android:title="Help &amp; Feedback"
+            android:id="@+id/feedback"
+            android:icon="@drawable/help"/>
+    </menu>
+</item>
+
+
+</menu>
